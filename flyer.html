@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+
+
+    <title>Flyer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <div id="flyerDisplay">
+
+    </div>
+
+
+<script>
+const params = new URLSearchParams(window.location.search);
+
+
+const flyerID = params.get("id");
+
+
+fetch("flyers.json")
+
+.then(response => response.json())
+
+
+.then(flyers => {
+
+
+    const flyer = flyers.find(item => item.id === flyerID);
+
+
+
+    const display = document.getElementById("flyerDisplay");
+
+
+
+    if (!flyer) {
+
+
+        display.innerHTML = `
+
+            <h1>Flyer Not Found</h1>
+
+            <p>
+            Sorry, this flyer does not exist.
+            </p>
+
+        `;
+
+
+        return;
+
+    }
+
+
+
+    display.innerHTML = `
+
+        <h1>${flyer.title}</h1>
+
+        <img 
+            src="${flyer.image}" 
+            alt="${flyer.title}"
+            class="fullFlyer"
+        >
+
+    `;
+
+
+});
+
+
+</script>
+
+
+</body>
+
+</html>

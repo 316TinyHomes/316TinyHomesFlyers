@@ -1,0 +1,122 @@
+/* ===== GENERAL PAGE STYLING ===== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    Background-color: #f4f4f4;
+
+    margin: 0;
+
+    padding: 0;
+
+    Text-align: center;
+}
+
+/* ===== MAIN PAGE TITLE ===== */
+
+h1 {
+
+    color: #2c3e50;
+
+    margin-top: 40px;
+
+}
+
+/* ===== WELCOME MESSAGE ===== */
+
+p {
+
+    color: #555;
+
+    font-size: 18px;
+
+}
+
+/* ===== CONTAINER THAT WILL HOLD THE FLYERS ===== */
+
+#flyerList {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 25px;
+
+    padding: 20px;
+
+}
+
+/* ===== EACH FLYER CARD ===== */
+
+.card {
+
+    width: 250px;
+
+    background: white;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+    text-decoration: none;
+
+    color: black;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,.15);
+
+    transition: transform .2s;
+
+}
+
+/* Makes the card "lift" slightly when the mouse is over it */
+
+.card:hover {
+
+    transform: scale(1.03);
+
+}
+
+/* Flyer thumbnail */
+
+.card img {
+
+    width: 100%;
+
+    display: block;
+
+}
+
+/* Flyer title */
+
+.card h2 {
+
+    margin: 15px;
+
+    font-size: 22px;
+
+}
+
+.fullFlyer {
+
+    width: 100%;
+
+    max-width: 600px;
+
+    height: auto;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,.2);
+}
+
+
+#flyerDisplay {
+
+    max-width: 700px;
+
+    margin: auto;
+
+    padding: 20px;
+
+}
