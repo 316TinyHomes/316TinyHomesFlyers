@@ -1,49 +1,49 @@
 [
     {
         "id": "genesis",
-        "title": "Genesis Flyer",
+        "title": "Genesis",
         "image": "flyers/genesis.jpg"
     },
         
     {
         "id": "exodus",
-        "title": "Exodus Flyer",
+        "title": "Exodus",
         "image": "flyers/exodus.jpg"
     },
 
     {
         "id": "leviticus",
-        "title": "Leviticus Flyer",
+        "title": "Leviticus",
         "image": "flyers/leviticus.jpg"
     },
 
     {
         "id": "judges",
-        "title": "Judges Flyer",
+        "title": "Judges",
         "image": "flyers/judges.jpg"
     },
 
     {
         "id": "ruth",
-        "title": "Ruth Flyer",
+        "title": "Ruth",
         "image": "flyers/ruth.jpg"
     },
 
     {
         "id": "kings",
-        "title": "Kings Flyer",
+        "title": "Kings",
         "image": "flyers/kings.jpg"
     },
 
     {
         "id": "ezra",
-        "title": "Ezra Flyer",
+        "title": "Ezra",
         "image": "flyers/ezra.jpg"
     },
 
     {
         "id": "psalms2",
-        "title": "Psalms Flyer",
+        "title": "Psalms",
         "image": "flyers/psalms2.jpg"
     }
 ]
