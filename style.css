@@ -123,7 +123,7 @@ p {
 
 .website-button {
     position: fixed;
-    top: 20px;
+    bottom: 70px;
     right: 20px;
     padding: 12px 24px;
     background-color: #0066cc;
