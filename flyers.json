@@ -45,5 +45,11 @@
         "id": "psalms2",
         "title": "Psalms",
         "image": "flyers/psalms2.jpg"
+    },
+
+    {
+        "id": "repo3",
+        "title": "Repo",
+        "image": "flyers/repo3.jpg"
     }
 ]
